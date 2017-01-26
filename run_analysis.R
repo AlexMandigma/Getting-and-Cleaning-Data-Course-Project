@@ -56,4 +56,4 @@ for(i in 1:subjectlength) {
     row <- row + 1
   }
 }
-write.table(result, "data_with_average.txt") 
+write.table(result, "data_with_average.txt", row.names = FALSE) 
